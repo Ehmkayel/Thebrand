@@ -1,0 +1,445 @@
+    * {
+        margin: 0;
+        padding: 0;
+        border: none;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: whitesmoke;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    main {
+        background-color: #f3fde8;
+        border: 2px solid white;
+        max-width: 1300px;
+        width: 100%;
+        margin: 20px auto;
+    }
+    
+    section {
+        padding: 1.6rem 10%;
+    }
+    /*the header*/
+    
+    header {
+        position: fixed;
+        max-width: 1300px;
+        width: 100%;
+        top: 0;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2%;
+        background-color: #ffe5e5;
+    }
+    
+    header .logo {
+        color:#a8df8e;
+        font-size: 1.4rem;
+        text-decoration: none;
+    }
+    
+    nav a {
+        color: #a8df8e;
+        padding: 0.4rem;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    nav a:active {
+        background-color: aqua;
+        border-radius: 5%;
+    }
+    
+    nav a:hover {
+        background-color: #f3fde8;
+        color: #a8df8e;
+        border-radius: 2px;
+    }
+    
+    nav ul,
+    li {
+        display: flex;
+        gap: 20px;
+    }
+    /*brand owner*/
+    
+    .banner {
+        text-align: center;
+        margin: 8% auto 0;
+        padding: 8% 0 0;
+        width: 80%;
+        background-color: transparent;
+    }
+    
+    .banner h1 {
+        font-size: 2.5em;
+        color: #ffbfbf;
+    }
+    
+    .banner p {
+        margin-top: 7px;
+        font-size: 1.4em;
+        color: #ffbfbf;
+    }
+    
+    .banner .btn {
+        background-color: #a8df8e;
+        color: #f3fde8;
+        font-size: 1em;
+        padding: 0.6em;
+        margin-top: 0.8em;
+        cursor: pointer;
+    }
+    
+    .banner .btn:hover {
+        background-color: #ffbfbf;
+        color: white;
+    }
+    /*About us*/
+    
+    .about-us {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2.8em;
+    }
+    
+    .subheading {
+        color: #ffbfbf;
+        text-align: center;
+        font-size: 1.6em;
+        text-transform: uppercase;
+        padding: 0.6em;
+    }
+    
+    .about-us .image {
+        flex: 1 1 30em;
+    }
+    
+    .image img {
+        width: 100%;
+    }
+    
+    .text {
+        flex: 1 1 30em;
+        padding: 1.6em 0.8em;
+    }
+    
+    .text h2 {
+        font-size: 1.4em;
+        color: #ffbfbf;
+        text-align: center;
+    }
+    
+    .text p {
+        padding: 1.4em 0;
+        font-size: 1.1em;
+        color: #ffbfbf;
+    }
+    
+    .text .btn {
+        background-color: #a8df8e;
+        color: #f3fde8;
+        font-size: 1em;
+        padding: 0.6em;
+        margin-top: 0.2em;
+        cursor: pointer;
+    }
+    
+    .text .btn:hover {
+        background-color: #ffbfbf;
+        color: #ffe5e5;
+    }
+    /*products section*/
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.3em;
+    }
+    
+    .items {
+        padding: 2rem;
+        text-align: center;
+        width: 15em;
+    }
+    
+    h3 {
+        font-size: 1em;
+        color: #ffbfbf;
+        text-align: center;
+        margin-top: 2px;
+    }
+    .pricelist{
+        margin-top: 0;
+        padding: 0;
+        color: #ffbfbf;
+    }
+    
+    .order {
+        background-color: #a8df8e;
+        justify-content: center;
+        align-items: center;
+        padding: 0.8em 1.2em;
+        color: #f3fde8;
+        cursor: pointer;
+    }
+    .order:hover{
+        background-color: #ffbfbf;
+        color: #ffe5e5;
+    }
+    
+    .items img {
+        height: 15em;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .items .icons {
+        padding: 0.3em 0;
+    }
+    
+    .items .icons .fa {
+        color: #a8df8e;
+        text-align: center;
+        margin: 2px 2px;
+        font-size: 15px;
+        width: 30px;
+        text-decoration: none;
+    }
+    
+    .items .icons span:hover {
+        cursor: pointer;
+        color: aqua;
+    }
+    /*contact section*/
+
+    .contact{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2.8em
+    }
+    .contact .images{
+        flex: 1 1 30em;
+    }
+    .contact img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .contact .form{
+        flex: 1 1 30em;
+        padding: 1.8em;
+        border: 2px solid #ffbfbf;
+        background-color: #ffbfbf;
+        margin-top: 1.2px;
+    }
+
+    .form h3{
+        font-size: 1.5em;
+        color: #f3fde8;
+        text-align: left;
+        padding: 3px;
+    }
+
+    .form-group{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0.4em;
+       
+    }
+
+    .form-group label{
+        color: #a8df8e;
+        display: block;
+        font-size: 1.2em;
+    }
+
+     ::placeholder{
+        color: #ffe5e5;
+        font-size: 0.9em;
+     }
+
+    input{
+        width: 100%;
+        padding: 0.8em;
+        margin-top: 0.8em;
+        background-color: #f3fde8;
+        border: 2px solid #a8df8e;
+        }
+
+    textarea{
+        width: 100%;
+        padding: 0.8em;
+        margin-top: 0.8em;
+        background-color: #f3fde8;
+        border: 2px solid #ffbfbf;
+        }
+
+    button[type="submit"]{
+            display: block;
+            width: 30%;
+            background-color: #a8df8e;
+            color: #f3fde8;
+            padding: 3%;
+            margin: 0 auto;
+            border-radius: 4%;
+        }
+
+    button[type="submit"]:hover{
+            background-color: #ffbfbf;
+            color: #ffe5e5
+        }
+
+    /*BLOG section*/
+    
+    .blog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.2em
+    }
+    
+    .recipe {
+        padding: 2em 1.6em;
+        text-align: left;
+        border: 1px solid #ffbfbf;
+        background-color: #ffe5e5;
+        border-radius: 6px;
+        box-shadow: 2px 2px 8px lightpink;
+    }
+    .recipe:hover{
+        color: #f3fde8;
+        background-color: #a8df8e;
+    }
+    
+    .recipe .headings{
+        text-align: center;
+        line-height: 0.4em;
+        font-size: 1.4em;
+        text-decoration: none;
+        color: #ffbfbf;
+        
+    }
+    .recipe .headings:hover{
+        background-color: #a8df8e;
+        color: #f3fde8;
+    }
+    .recipe span{
+        display: block;
+        font-size: 0.8em;
+        padding-top: 0.4em;
+        color: #ffbfbf;
+        text-align: left;
+    }
+
+    .recipe p{
+        font-size: 1em;
+        line-height: 1.2em;
+        padding: 0.8em 0;
+        color: #ffbfbf;
+    }
+    
+    .recipe .btn {
+        background-color: #a8df8e;
+        color: #f3fde8;
+        padding: 3%;
+        display: inline-block;
+        margin-top: 5px;
+        border-radius: 3px;
+        text-decoration: none;
+    }
+
+    .recipe .btn:hover{
+        background-color: #ffbfbf;
+        color: #ffe5e5;
+    }
+
+    /* Footer Section */
+   
+    
+    footer {
+        background-color: #ffe5e5;
+        margin: 10px auto;
+        
+    }
+
+   footer .container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 0;
+        align-items: center;
+    }
+
+    footer .item{
+        background-color: transparent;
+        text-align: left;
+        height: 150px;
+        flex: 1;
+        margin: 3em 2.4em;
+    }
+
+    footer li{
+        list-style-type: none;
+        padding: 5px;
+        color: #a8df8e;
+
+    }
+
+    footer a{
+        text-decoration: none;
+        color: #a8df8e;
+    }
+
+    .footer-logo{
+        color: #a8df8e;
+        font-size: 1.4em;
+    }
+
+    .socials .fa{
+        padding: 8px;
+        font-size: 25px;
+
+    }
+
+    .socials .fa:hover{
+        opacity: 0.5;
+    }
+
+    .socials .fa:visited{
+        background-color: grey;
+    }
+
+    .fa-facebook{
+        color: #3B5998;   
+    }
+
+    .fa-instagram{
+        color: #b52838
+    }
+
+    .fa-twitter{
+        color: #55ACEE
+    }
+
+    .fa-youtube{
+        color: #ff0000;
+    }
+
+    .copy {
+        text-align: center;
+        padding: 10px;
+        font-size: smaller;
+        color: #a8df8e;
+        
+    }
+   
