@@ -11,7 +11,7 @@
     }
     
     main {
-        background-color: #f3fde8;
+        background-color: white;
         border: 2px solid white;
         max-width: 1300px;
         width: 100%;
@@ -33,7 +33,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 2%;
-        background-color: #ffe5e5;
+        background-color: #f3fde8;
     }
     
     header .logo {
@@ -55,8 +55,8 @@
     }
     
     nav a:hover {
-        background-color: #f3fde8;
-        color: #a8df8e;
+        background-color: #ffe5e5;
+        color: #ffbfbf;
         border-radius: 2px;
     }
     
@@ -77,13 +77,13 @@
     
     .banner h1 {
         font-size: 2.5em;
-        color: #ffbfbf;
+        color: #a8df8e;
     }
     
     .banner p {
         margin-top: 7px;
         font-size: 1.4em;
-        color: #ffbfbf;
+        color: #a8df8e;
     }
     
     .banner .btn {
@@ -110,7 +110,7 @@
     }
     
     .subheading {
-        color: #ffbfbf;
+        color: #a8df8e;
         text-align: center;
         font-size: 1.6em;
         text-transform: uppercase;
@@ -132,14 +132,14 @@
     
     .text h2 {
         font-size: 1.4em;
-        color: #ffbfbf;
+        color:#a8df8e ;
         text-align: center;
     }
     
     .text p {
         padding: 1.4em 0;
         font-size: 1.1em;
-        color: #ffbfbf;
+        color:#a8df8e ;
     }
     
     .text .btn {
@@ -173,7 +173,7 @@
     
     h3 {
         font-size: 1em;
-        color: #ffbfbf;
+        color: #a8df8e;
         text-align: center;
         margin-top: 2px;
     }
@@ -238,8 +238,8 @@
     .contact .form{
         flex: 1 1 30em;
         padding: 1.8em;
-        border: 2px solid #ffbfbf;
-        background-color: #ffbfbf;
+        border: 2px solid ;
+        background-color: #a8df8e;
         margin-top: 1.2px;
     }
 
@@ -258,7 +258,7 @@
     }
 
     .form-group label{
-        color: #a8df8e;
+        color: #ffbfbf;
         display: block;
         font-size: 1.2em;
     }
@@ -287,8 +287,8 @@
     button[type="submit"]{
             display: block;
             width: 30%;
-            background-color: #a8df8e;
-            color: #f3fde8;
+            background-color: #f3fde8;
+            color: #a8df8e;
             padding: 3%;
             margin: 0 auto;
             border-radius: 4%;
@@ -311,14 +311,14 @@
     .recipe {
         padding: 2em 1.6em;
         text-align: left;
-        border: 1px solid #ffbfbf;
-        background-color: #ffe5e5;
+        border: 1px solid #f3fde8;
+        background-color: #a8df8e;
         border-radius: 6px;
         box-shadow: 2px 2px 8px lightpink;
     }
     .recipe:hover{
-        color: #f3fde8;
-        background-color: #a8df8e;
+        color: #ffbfbf;
+        background-color: #ffe5e5;
     }
     
     .recipe .headings{
@@ -326,7 +326,7 @@
         line-height: 0.4em;
         font-size: 1.4em;
         text-decoration: none;
-        color: #ffbfbf;
+        color: #f3fde8;
         
     }
     .recipe .headings:hover{
@@ -337,7 +337,7 @@
         display: block;
         font-size: 0.8em;
         padding-top: 0.4em;
-        color: #ffbfbf;
+        color: #f3fde8;
         text-align: left;
     }
 
@@ -345,12 +345,12 @@
         font-size: 1em;
         line-height: 1.2em;
         padding: 0.8em 0;
-        color: #ffbfbf;
+        color: #f3fde8;
     }
     
     .recipe .btn {
-        background-color: #a8df8e;
-        color: #f3fde8;
+        background-color: #f3fde8;
+        color: #a8df8e;
         padding: 3%;
         display: inline-block;
         margin-top: 5px;
@@ -367,7 +367,7 @@
    
     
     footer {
-        background-color: #ffe5e5;
+        background-color: #f3fde8;
         margin: 10px auto;
         
     }
